@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    Red: <color name="red">#FFFF0000</color>
+    Green: <color name="green">#FF00FF00</color>
+    Blue: <color name="blue">#FF0000FF</color>
+    Yellow: <color name="yellow">#FFFFFF00</color>
+    Cyan: <color name="cyan">#FF00FFFF</color>
+    Magenta: <color name="magenta">#FFFF00FF</color>
+    Gray: <color name="gray">#FF808080</color>
+    Light Gray: <color name="light_gray">#FFD3D3D3</color>
+    Dark Gray: <color name="dark_gray">#FF404040</color>
+    Orange: <color name="orange">#FFFFA500</color>
+    Pink: <color name="pink">#FFFFC0CB</color>
+    Purple: <color name="purple">#FF800080</color>
+    Brown: <color name="brown">#FFA52A2A</color>
+    forest green:<color name="forest_green">#228B22</color>
+    light and dark green:<color name="light_and_dark_green">#56ab2f</color>
+    New light green:<color name="New_light_green">#a8e063</color>
+
+
+</resources>

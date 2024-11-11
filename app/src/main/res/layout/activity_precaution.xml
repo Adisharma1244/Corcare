@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="411dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="1 Influenza (Flu)"
+            android:textColor="@color/New_light_green"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="404dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="68dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Common Diseases and Conditions"
+            android:textColor="@color/forest_green"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="328dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="432dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. It affects the nose, throat, and sometimes the lungs, leading to a range of symptoms that can vary in severity. The flu can cause mild to severe illness, and at times can lead to death. Here are the common symptoms associated with the flu"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="228dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/flu" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="301dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="728dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Fever: Often high, though not everyone with the flu will have a fever"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.672"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="324dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="816dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Cough: Usually dry and can be severe."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="356dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="104dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Muscle aches: Often severe, commonly in the back, arms, and legs."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="357dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Runny or stuffy nose: Less common than other symptoms but can occur."
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="173dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Prevention"
+            android:textColor="@color/New_light_green"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="353dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Vaccination:The annual flu vaccine is the most effective way to prevent the flu. It is recommended for everyone 6 months and older, with rare exceptions."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="353dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Healthy Lifestyle:Eating a balanced diet can help keep your immune system strong."
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="2.COVID-19"
+            android:textColor="@color/New_light_green"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="370dp"
+            android:layout_height="182dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Primarily through respiratory droplets when an infected person coughs, sneezes, or talks. It can also spread by touching surfaces contaminated with the virus and then touching the face. Symptoms Common Symptoms: Fever, dry cough, tiredness. Other ."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.803"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.652"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            app:srcCompat="@drawable/covid" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="342dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="The Common Symptoms: Fever, dry cough, tiredness. Other Symptoms: Loss of taste or smell, nasal congestion, conjunctivitis, sore throat, headache, muscle or joint pain, chills, nausea or vomiting, diarrhea, skin rashes."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="3.Diabetes"
+            android:textColor="@color/New_light_green"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.712"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35"
+            app:srcCompat="@drawable/diobetes" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="355dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Diabetes is a chronic condition that affects how your body turns food into energy. It involves problems with the hormone insulin, leading to elevated blood sugar levels."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="222dp"
+            android:layout_height="33dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Types"
+            android:textColor="@color/New_light_green"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="341dp"
+            android:layout_height="321dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Type 1 Diabetes: The body's immune system attacks insulin-producing cells in the pancreas. Often diagnosed in children and young adults. Type 2 Diabetes: The body becomes resistant to insulin or doesn't produce enough. Commonly associated with obesity and occurs in adults, but increasingly in children."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.987"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

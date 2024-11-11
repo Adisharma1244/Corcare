@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abril_fatface</item>
+        <item>@font/akshar_light</item>
+        <item>@font/battambang</item>
+        <item>@font/battambang_thin</item>
+        <item>@font/comfortaa</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/comfortaa_medium</item>
+        <item>@font/rock_salt</item>
+
+    </array>
+</resources>

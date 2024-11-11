@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037904324015",
+    "project_id": "corcare-15799",
+    "storage_bucket": "corcare-15799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037904324015:android:ec19fc55e0b5169e697b5a",
+        "android_client_info": {
+          "package_name": "com.example.newactivty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKrL4DhTQYJ0_wraHx-qXpjvYepKuSeBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

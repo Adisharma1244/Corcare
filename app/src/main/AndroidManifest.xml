@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/baseline_handshake_24"
+        android:label="CorCare"
+        android:roundIcon="@drawable/baseline_handshake_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewActivty"
+        tools:targetApi="31"
+        >
+
+        <activity
+            android:name=".Xray"
+            android:exported="false" />
+        <activity
+            android:name=".SugartTest"
+            android:exported="false" />
+        <activity
+            android:name=".medicens"
+            android:exported="false" />
+        <activity
+            android:name=".emergency"
+            android:exported="false" />
+        <activity
+            android:name=".bloodtest"
+            android:exported="false" />
+        <activity
+            android:name=".pament"
+            android:exported="false" />
+        <activity
+            android:name=".labtest"
+            android:exported="false" />
+        <activity
+            android:name=".fixappointment"
+            android:exported="false" />
+        <activity
+            android:name=".schedulepage"
+            android:exported="false" />
+        <activity
+            android:name=".appointment"
+            android:exported="false" />
+        <activity
+            android:name=".listdocter"
+            android:exported="false" />
+        <activity
+            android:name=".precaution"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".HomesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UnityCare"
+            android:exported="false" />
+        <activity
+            android:name=".screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
