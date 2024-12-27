@@ -1,15 +1,13 @@
 package com.example.newactivty
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
-import android.widget.ListView
-import android.widget.Toast
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class appointment : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_appointment)
@@ -25,6 +23,19 @@ class appointment : AppCompatActivity() {
             startActivity(tent)
 
         }
+        val appointment3 = findViewById<Button>(R.id.button7)
+        appointment3.setOnClickListener {
+            val tent = Intent(this, schedulepage::class.java)
+            startActivity(tent)
 
+        }
+        val appointment4 = findViewById<Button>(R.id.button9)
+        appointment4.setOnClickListener {
+            val tent = Intent(this, schedulepage::class.java)
+            startActivity(tent)
     }
-}
+        val appointment5 = findViewById<Button>(R.id.button10)
+        appointment5.setOnClickListener {
+            val tent = Intent(this, schedulepage::class.java)
+            startActivity(tent)}
+    }}

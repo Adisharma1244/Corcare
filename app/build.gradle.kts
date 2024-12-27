@@ -58,8 +58,11 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation("com.google.android.gms:play-services-auth:21.2.0")
     implementation ("com.google.firebase:firebase-auth:21.0.1")
-//       implementation("androidx.viewpager2:viewpager2:1.1.0")
+    implementation ("com.google.firebase:firebase-database:20.2.5")
+    implementation ("com.google.firebase:firebase-firestore:24.3.2")
 
-//   implementation ("androidx.viewpager:viewpager2:1.0.0")
+    implementation("com.google.gms:google-services:4.3.15")
+  implementation ("com.google.android.gms:play-services-wallet:18.0.0")
 //    implementation ("me.relex:circleindicator:2.1.4")
+
 }

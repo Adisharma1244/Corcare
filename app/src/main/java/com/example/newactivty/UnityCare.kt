@@ -35,11 +35,13 @@ class UnityCare : AppCompatActivity() {
                         if(it.isSuccessful){
                             val intent = Intent (this,HomesScreen::class.java)
                             startActivity(intent)
+                        }else{
+                            Toast.makeText(this,"SignIn failed,Please check your details ", Toast.LENGTH_LONG).show()
+
                         }}
                 }
-
             else{
-                Toast.makeText(this,"Empty fields are not allowes ", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"Empty fields are not allowed ", Toast.LENGTH_LONG).show()
             }
 
         }

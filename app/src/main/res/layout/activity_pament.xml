@@ -5,46 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".pament">
+    tools:context=".payment">
+
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="223dp"
-        android:layout_height="54dp"
+        android:layout_width="273dp"
+        android:layout_height="75dp"
         android:fontFamily="@font/comfortaa_bold"
-        android:text="Total Amount "
+        android:text="Total Amount :27"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
-        android:layout_marginBottom="105dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="27 "
-        android:textAlignment="center"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintVertical_bias="0.371" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/forest_green"
-        android:text="Pay"
+        android:text="GPay"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

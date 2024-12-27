@@ -30,7 +30,7 @@ class fixappointment : AppCompatActivity() {
         }
         val signi = findViewById<Button>(R.id.button3)
         signi.setOnClickListener {
-            val tent = Intent(this, pament::class.java)
+            val tent = Intent(this,payment::class.java)
             startActivity(tent)
         }
 
